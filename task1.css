@@ -1,0 +1,100 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    border :1px solid black; 
+}
+section>article{
+    height: 400px;
+    width: 250px;
+    border:2px solid white ;
+    background-color: black;
+    margin-left: 530px;
+    margin-top: 30px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 50px white;
+    
+}
+section>article>.pic{
+    height: 30%;
+    width: 100%;
+    background-color:black;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+section>article>.pic>div{
+    
+    height: 90px;
+    width: 90px;
+    background-image: url(../HTML/IMAGES/dhoni.jpeg);
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px yellow;
+    
+   
+}
+section>article>.pic>div:hover{
+    
+    transform:skew(1);
+    transition: 3s;
+}
+
+section>article>.info{
+    
+    height: 40%;
+    width: 100%;
+    
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+section>article>.info>div{
+    color: rgb(237, 237, 63);
+    text-shadow: 0px 0px 500px whitesmoke;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+section>article>.info>h1{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 50px yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    
+}
+
+section>article>.info>p{
+    width: 100%;
+    text-align: center;
+    color: rgb(247, 249, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    
+    
+}
+section>article>.btn{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    padding-left: 70px;
+    padding-top: 30px;
+    
+    
+}
+section>article>.btn>button{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border-spacing: 10px;
+    line-height: 30px;
+}
